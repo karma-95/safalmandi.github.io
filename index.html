@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna Dukan</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <nav>
+                <div class="row clearfix">
+                    <img src="images/logo.png" class="logo">
+                    <ul class="main-nav animate__animated animate__fadeInDown" id="showbar">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">contact US</a></li>
+                        <li><a href="#" class="showform">SIGN UP</a></li>
+                    </ul>
+                    <a href="#" class="mob-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+                </div>
+            </nav>
+            <div class="main-content">
+                <H1>WELCOME TO <span class="changecolor">APNA DUKAN</span>. <br>PLACE YOUR ORDERS HERE WITHOUT DELAY.</H1>
+                <a href="#" class="btn btn-one">Click to ORDER</a>
+                <a href="#" class="btn btn-two">See More...</a>
+            </div>
+        </section>
+        <section>
+            <div class="bigform animate__animated animate__fadeInDown">
+                <div class="container">
+                    <div class="user signin">
+                        <div class="imagebox"><img src="./images/back1.jpg"></div>
+                        <div class="formbox">
+                            <form>
+                                <h2>Sign In</h2>
+                                <input type="text" placeholder="Username">
+                                <input type="password" placeholder="Password"><br>
+                                <input type="submit" value="Login"> Dont't have an account? <a href="#" onclick="toggleForm();">Sign Up</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="user signup">
+                        <div class="formbox">
+                            <form>
+                                <h2>Create an account</h2>
+                                <input type="text" placeholder="Username">
+                                <input type="text" placeholder="Email">
+                                <input type="password" placeholder="Create Password">
+                                <input type="password" placeholder="Confirm Password">
+
+                                <input type="submit" value="Sign Up">
+                                <p class="signup"> Already have an account? <a href="#" onclick="toggleForm();">Sign In</a></p>
+                            </form>
+                        </div>
+                        <div class="imagebox"><img src="./images/back2.jpg"></div>
+
+                    </div>
+
+                    <!-- <input type="text" placeholder="Name" name="name">
+                    <input type="password" placeholder="Password" name="password">
+                    <input type="text" placeholder="Email Id">
+                    <a href="index.html" class="btn btn-register" draggable="true">register</a>
+                    <br>Already Registered? <a href="#">Sign In</a> -->
+                    <span class="x" draggable="true">&times;</span>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
